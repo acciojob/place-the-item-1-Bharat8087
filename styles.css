@@ -1,2 +1,28 @@
+.hold{
+	width:500px;
+	padding; 1 px;
+	display:flex;
+	margin:0px;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	
+}
+.box{
+	width:200px;
+	height:200px;
+	color:black;
+	border:1 px solid black;
+}
+#a{
+	height:200px;
+	background-color:green;
+}
+#b{
+	height:200px;
+	background-color:red;
+}
+#c{
+	height:200px;
+	background-color:blue;
+}
 
-/* Your CSS Code here. */
