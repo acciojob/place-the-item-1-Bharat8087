@@ -1,12 +1,27 @@
-.hold{
-	width:500px;
-	padding; 1 px;
-	display:flex;
+#container{
 	margin:0px;
-	flex-wrap:wrap;
-	justify-content:space-between;
+	padding:0px;
+}
+.holder-1{
+	width:100wh;
+	height:100vh;
+    display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+
 	
 }
+.holder-2{
+	width:100wh;
+	height:100vh;
+    display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+
+	
+}
+
 .box{
 	width:200px;
 	height:200px;
