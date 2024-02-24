@@ -8,16 +8,9 @@
 .box{
 	width:200px;
 	height:200px;
-	color:black
+	color:black;
 	border:1px solid black;
-	color:white;
 }
- body {
-        margin: 0;
-        padding: 0;
-        
-    }
-
 #a{
 	height:200px;
 	background-color:green;
@@ -30,5 +23,3 @@
 	height:200px;
 	background-color:blue;
 }
-
-
