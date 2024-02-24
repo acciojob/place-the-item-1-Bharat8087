@@ -1,29 +1,23 @@
-holder {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .item {
-        flex: 1 0 auto;
-        background-color: #f0f0f0;
-        margin: 5px;
-        padding: 20px;
-        box-sizing: border-box;
-    }
-
-    
-    body {
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+	flex-direction:row;
+	align-items:end;
+}
+.box{
+	width:200px;
+	height:200px;
+	color:black
+	border:1px solid black;
+	color:white;
+}
+ body {
         margin: 0;
         padding: 0;
         
     }
-.box{
-	width:200px;
-	height:200px;
-	color:black;
-	border:1 px solid black;
-}
+
 #a{
 	height:200px;
 	background-color:green;
